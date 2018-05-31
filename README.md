@@ -35,7 +35,6 @@ The app is set to be listening to port: 8888 (http://localhost:8888)
 ![alt text](http://ktalvis.com/img/screen2.png)
 
 - The application is written in AngularJs and Vanilla Javascript. Apart from Bootstrap CSS, no Jquery, Bootstrap JS or any other frameworks/libraries have been used. 
-- Jasmine framework is used for BDD Testing. 
 - Card enumeration for suits and values has been manually added for sorting purposes.
 
 ## Karolos Talvis - 31/5/18  
