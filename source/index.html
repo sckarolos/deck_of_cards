@@ -29,8 +29,10 @@
               </div>
             </div>
             <div class="row space_top">
+              <!-- Generate original deck -->
               <div ng-repeat="item in vm.deck">
                 <div class="card" id="{{item.id}}" ng-click="removeItem($index)">
+                  <!-- Generate ♥ and ♦ cards -->
                   <div class="red" ng-if="item.suit == '♥' || item.suit == '♦'">
                     <span class="card__suit card__suit--top">{{item.value}}</span>
                     <span class="card__value card__value--top">{{item.suit}}</span>
@@ -38,6 +40,7 @@
                     <span class="card__suit card__suit--bottom">{{item.value}}</span>
                     <span class="card__value card__value--bottom">{{item.suit}}</span>
                   </div>
+                  <!-- Generate ♠ and ♣ cards -->
                   <div class="black" ng-if="item.suit == '♠' || item.suit == '♣'">
                     <span class="card__suit card__suit--top">{{item.value}}</span>
                     <span class="card__value card__value--top">{{item.suit}}</span>
@@ -57,6 +60,7 @@
             </div>
             </div>
             <div class="row space_top">
+              <!-- Generate secondary deck -->
               <div ng-repeat="item in vm.newDeck">
                 <div class="card" id="{{item.id}}" ng-click="addItem($index)">
                   <div class="red" ng-if="item.suit == '♥' || item.suit == '♦'">

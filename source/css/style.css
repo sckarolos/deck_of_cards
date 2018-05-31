@@ -5,6 +5,7 @@ body, html {
 }
 
 body {
+  /* Set page background */
   background-image: radial-gradient(circle, #95b37e, #7c9e65, #628a4c, #497635, #2f621d);
   font-family: 'Anton', sans-serif;
   -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -15,11 +16,11 @@ body {
   margin-top: 3%;
 }
 
-
 .box {
     padding: 0 5px 0 5px;
 }
 
+/* Generic style for a card */
 .card {
   position: relative;
   width: 90px;
