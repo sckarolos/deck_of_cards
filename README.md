@@ -1,4 +1,4 @@
-Angularjs one page application - Deck of Cards
+Deck of Cards - Angularjs responsive one page application 
 
 ### Demo URL: http://ktalvis.com/deck/source
 
