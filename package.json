@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/sckarolos/code_task/overview"
+    "url": "https://github.com/sckarolos/deck_of_cards"
   },
   "plugins": [
     "jasmine"

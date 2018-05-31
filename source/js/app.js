@@ -8,7 +8,7 @@
 
           vm.deck = cardService;
           vm.newDeck = [];
- 
+
           // Array shuffle - Fisher-Yates algorithm
           // https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle#The_modern_algorithm
           // Call the following on ng-click!
