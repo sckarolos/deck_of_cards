@@ -2,6 +2,8 @@ Deck of Cards - Angularjs responsive one page application
 
 ### Demo URL: http://ktalvis.com/deck/source
 
+![alt text](http://ktalvis.com/img/screen.png)
+
 ### Specs: 
 - A user can shuffle the deck as many times as he/she wants to. Shuffling becomes disabled when there is one or no cards left on the deck. Shuffling functionality is based on an implementation of the Fisher-Yates shuffle algorithm. 
 - Cards can be drawn from the deck by clicking on them. The drawn card will be removed from the original deck and it will be placed into a new one below. 
@@ -30,7 +32,7 @@ The app is set to be listening to port: 8888 (http://localhost:8888)
 ### Comments:  
 - The application is based on the MVC (Model-View-Controller) design pattern. The application can be easily expanded  as it could load data from a REST API (by injecting $http as a dependency) instead of generating them in the service/factory. With minor changes it can work with more than one deck of cards.  
 
-![alt text](http://angularjstutorials.net/images/mvc/mvc-framework.png)
+![alt text](http://ktalvis.com/img/screen2.png)
 
 - The application is written in AngularJs and Vanilla Javascript. Apart from Bootstrap CSS, no Jquery, Bootstrap JS or any other frameworks/libraries have been used. 
 - Jasmine framework is used for BDD Testing. 
