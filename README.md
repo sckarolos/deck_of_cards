@@ -30,7 +30,7 @@ The app is set to be listening to port: 8888 (http://localhost:8888)
 - Jasmine 2.1.4 
 
 ### Comments:  
-- The application is based on the MVC (Model-View-Controller) design pattern. The application can be easily expanded  as it could load data from a REST API (by injecting $http as a dependency) instead of generating them in the service/factory. With minor changes it can work with more than one deck of cards.  
+- The application is based on the MVC (Model-View-Controller) design pattern. The application can be easily expanded  as it could load data from a REST API (by injecting $http as a dependency) instead of generating them in the service/factory. With minor changes it can work with more than one deck of cards. The application is based on John Papa's style guide: https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md
 
 ![alt text](http://ktalvis.com/img/screen2.png)
 
