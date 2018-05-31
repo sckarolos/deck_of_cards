@@ -43,10 +43,9 @@ describe('Test app functionality', function() {
 
 });
 
-
 describe('1: Test deck length', function () {
   // it('The deck should have 52 cards', function() {
-  //   expect(deck.length).toBe(52);
+  //   expect(cardService.length).toBe(52);
   // });
 });
 

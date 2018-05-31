@@ -5,7 +5,7 @@
     angular.module('CodeTaskApp').controller('MainController', function ($scope, cardService) {
           // Set view model
           let vm = this;
-
+          
           vm.deck = cardService;
           vm.newDeck = [];
 
