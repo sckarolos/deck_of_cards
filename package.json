@@ -1,5 +1,5 @@
 {
-  "name": "DeckOfCards",
+  "name": "CodeTaskApp",
   "version": "1.0.0",
   "description": "Deck of Cards",
   "main": "(app.js)",
@@ -9,41 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "angular-mocks": "^1.7.0",
     "express": "^4.16.2",
     "npm": "^5.7.1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/sckarolos/deck_of_cards"
-  },
-  "plugins": [
-    "jasmine"
-  ],
-  "extends": [
-    "angular",
-    "eslint:recommended",
-    "plugin:jasmine/recommended"
-  ],
-  "rules": {
-    "quotes": [
-      2,
-      "single"
-    ],
-    "strict": [
-      2,
-      "global"
-    ],
-    "semi": [
-      "error",
-      "always"
-    ],
-    "angular/on-watch": "warn"
-  },
-  "env": {
-    "jasmine": true
-  },
-  "devDependencies": {
-    "jasmine": "2.1.4"
   }
 }
