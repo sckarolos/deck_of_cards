@@ -1,0 +1,112 @@
+
+body, html {
+  overflow-x:hidden;
+  height: 100%;
+}
+
+body {
+  background-image: radial-gradient(circle, #95b37e, #7c9e65, #628a4c, #497635, #2f621d);
+  font-family: 'Anton', sans-serif;
+  -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+  font-size: 1.5em !important;
+}
+
+.space_top {
+  margin-top: 3%;
+}
+
+
+.box {
+    padding: 0 5px 0 5px;
+}
+
+.card {
+  position: relative;
+  width: 90px;
+  height: 120px;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  background-image: radial-gradient(circle, #ededed, #eae5e8, #eadcdd, #e6d6cd, #d8d2bf);
+  -webkit-box-shadow: 0px 0px 29px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 29px -3px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 29px -3px rgba(0,0,0,0.75);
+}
+
+.instructions {
+  color: #fff;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    z-index: 9999;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card__suit {
+  width: 100%;
+  display: block;
+  position: absolute;
+}
+
+.card__value {
+  width: 100%;
+  display: block;
+  position: absolute;
+}
+
+.card__center {
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  font-size: 2em;
+  transform: translateY(-50%);
+}
+
+.card__suit--top {
+  text-align: left;
+  padding-left: 5px;
+  padding-top: 2px;
+}
+
+.card__value--top {
+  text-align: left;
+  padding-left: 5px;
+  padding-top: 16px;
+}
+
+.card__suit--bottom {
+  position: absolute;
+  text-align: left;
+  transform: rotate(180deg);
+  padding-left: 5px;
+  padding-bottom: 96px;
+}
+
+.card__value--bottom {
+  position: absolute;
+  text-align: left;
+  transform: rotate(180deg);
+  padding-left: 5px;
+  padding-bottom: 83px;
+}
+
+.red {
+  color: #ea0e0e;
+}
+
+.black {
+  color: #000;
+}
+
+.btn {
+  font-size: 1.2em !important;
+}
+
+.bottomSpacing {
+  margin-bottom: 10em;
+}
